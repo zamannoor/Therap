@@ -408,14 +408,16 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020020;
     }
     public static final class id {
-        public static final int action_settings=0x7f07001a;
+        public static final int action_settings=0x7f07001e;
         public static final int book_now=0x7f070010;
-        public static final int btn_sign_in=0x7f070018;
-        public static final int btn_sign_out=0x7f070019;
+        public static final int btn_sign_in=0x7f07001c;
+        public static final int btn_sign_out=0x7f07001d;
+        public static final int button12=0x7f070019;
         public static final int buyButton=0x7f07000a;
         public static final int buy_now=0x7f07000f;
         public static final int buy_with_google=0x7f07000e;
         public static final int classic=0x7f070011;
+        public static final int editText12=0x7f070018;
         public static final int grayscale=0x7f070012;
         public static final int holo_dark=0x7f070005;
         public static final int holo_light=0x7f070006;
@@ -432,6 +434,8 @@ containing a value of this type.
         public static final int selectionDetails=0x7f07000b;
         public static final int strict_sandbox=0x7f070009;
         public static final int terrain=0x7f070003;
+        public static final int textView12=0x7f07001a;
+        public static final int textView22=0x7f07001b;
         public static final int txtEmail=0x7f070017;
         public static final int txtName=0x7f070016;
         public static final int wrap_content=0x7f07000d;
@@ -453,6 +457,7 @@ containing a value of this type.
          */
         public static final int btn_logout_from_google=0x7f050025;
         public static final int btn_revoke_access=0x7f050026;
+        public static final int button12=0x7f050028;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f050009;
@@ -557,6 +562,7 @@ containing a value of this type.
         public static final int decline=0x7f050003;
         public static final int store_picture_message=0x7f050001;
         public static final int store_picture_title=0x7f050000;
+        public static final int textView22=0x7f050027;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

@@ -92,14 +92,16 @@ int drawable ic_plusone_standard_off_client 0x7f02001d
 int drawable ic_plusone_tall_off_client 0x7f02001e
 int drawable powered_by_google_dark 0x7f02001f
 int drawable powered_by_google_light 0x7f020020
-int id action_settings 0x7f07001a
+int id action_settings 0x7f07001e
 int id book_now 0x7f070010
-int id btn_sign_in 0x7f070018
-int id btn_sign_out 0x7f070019
+int id btn_sign_in 0x7f07001c
+int id btn_sign_out 0x7f07001d
+int id button12 0x7f070019
 int id buyButton 0x7f07000a
 int id buy_now 0x7f07000f
 int id buy_with_google 0x7f07000e
 int id classic 0x7f070011
+int id editText12 0x7f070018
 int id grayscale 0x7f070012
 int id holo_dark 0x7f070005
 int id holo_light 0x7f070006
@@ -116,6 +118,8 @@ int id satellite 0x7f070002
 int id selectionDetails 0x7f07000b
 int id strict_sandbox 0x7f070009
 int id terrain 0x7f070003
+int id textView12 0x7f07001a
+int id textView22 0x7f07001b
 int id txtEmail 0x7f070017
 int id txtName 0x7f070016
 int id wrap_content 0x7f07000d
@@ -127,6 +131,7 @@ int string action_settings 0x7f050024
 int string app_name 0x7f050023
 int string btn_logout_from_google 0x7f050025
 int string btn_revoke_access 0x7f050026
+int string button12 0x7f050028
 int string common_android_wear_notification_needs_update_text 0x7f050009
 int string common_android_wear_update_text 0x7f050016
 int string common_android_wear_update_title 0x7f050014
@@ -160,6 +165,7 @@ int string create_calendar_title 0x7f050004
 int string decline 0x7f050003
 int string store_picture_message 0x7f050001
 int string store_picture_title 0x7f050000
+int string textView22 0x7f050027
 int string wallet_buy_button_place_holder 0x7f050022
 int style AppBaseTheme 0x7f040005
 int style AppTheme 0x7f040006

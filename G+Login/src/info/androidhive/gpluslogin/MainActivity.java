@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -54,10 +55,11 @@ public class MainActivity extends Activity implements OnClickListener,
 	private ConnectionResult mConnectionResult;
 
 	private SignInButton btnSignIn;
-	private Button btnSignOut, btnRevokeAccess;
+	private Button btnSignOut, btnRevokeAccess,button12;
 	private ImageView imgProfilePic;
-	private TextView txtName, txtEmail;
+	private TextView txtName, txtEmail,textView12,textView22;
 	private LinearLayout llProfileLayout;
+	private EditText editText12;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -66,12 +68,15 @@ public class MainActivity extends Activity implements OnClickListener,
 
 		btnSignIn = (SignInButton) findViewById(R.id.btn_sign_in);
 		btnSignOut = (Button) findViewById(R.id.btn_sign_out);
-	
+		button12 = (Button) findViewById(R.id.button12);
 	
 	
 		imgProfilePic = (ImageView) findViewById(R.id.imgProfilePic);
 		txtName = (TextView) findViewById(R.id.txtName);
 		txtEmail = (TextView) findViewById(R.id.txtEmail);
+		textView12 = (TextView) findViewById(R.id.textView12);
+		textView22 = (TextView) findViewById(R.id.textView22);
+		editText12 = (EditText)findViewById(R.id.editText12);
 		llProfileLayout = (LinearLayout) findViewById(R.id.llProfile);
 
 		// Button click listeners
@@ -169,11 +174,19 @@ public class MainActivity extends Activity implements OnClickListener,
 	private void updateUI(boolean isSignedIn) {
 		if (isSignedIn) {
 			btnSignIn.setVisibility(View.GONE);
+			editText12.setVisibility(View.GONE);
+			button12.setVisibility(View.GONE);
+			textView12.setVisibility(View.GONE);
+			textView22.setVisibility(View.GONE);
 			btnSignOut.setVisibility(View.VISIBLE);
 		//	btnRevokeAccess.setVisibility(View.VISIBLE);
 			llProfileLayout.setVisibility(View.VISIBLE);
 		} else {
 			btnSignIn.setVisibility(View.VISIBLE);
+			editText12.setVisibility(View.VISIBLE);
+			button12.setVisibility(View.VISIBLE);
+			textView12.setVisibility(View.VISIBLE);
+			textView22.setVisibility(View.VISIBLE);
 			btnSignOut.setVisibility(View.GONE);
 		//	btnRevokeAccess.setVisibility(View.GONE);
 			llProfileLayout.setVisibility(View.GONE);

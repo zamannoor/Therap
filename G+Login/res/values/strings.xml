@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">G+ Login</string>
+    <string name="app_name">Bangla to English Translator</string>
     <string name="action_settings">Settings</string>
     
     <!-- Button text -->
-    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_logout_from_google">Logout</string>
     <string name="btn_revoke_access">Revoke Access</string>
-
+    <string name="textView22">Improve this translation</string>
+    <string name="button12">Translate</string>
 </resources>
