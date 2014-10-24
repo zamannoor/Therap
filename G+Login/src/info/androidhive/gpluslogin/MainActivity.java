@@ -66,7 +66,9 @@ public class MainActivity extends Activity implements OnClickListener,
 
 		btnSignIn = (SignInButton) findViewById(R.id.btn_sign_in);
 		btnSignOut = (Button) findViewById(R.id.btn_sign_out);
-		btnRevokeAccess = (Button) findViewById(R.id.btn_revoke_access);
+	
+	
+	
 		imgProfilePic = (ImageView) findViewById(R.id.imgProfilePic);
 		txtName = (TextView) findViewById(R.id.txtName);
 		txtEmail = (TextView) findViewById(R.id.txtEmail);
@@ -75,7 +77,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		// Button click listeners
 		btnSignIn.setOnClickListener(this);
 		btnSignOut.setOnClickListener(this);
-		btnRevokeAccess.setOnClickListener(this);
+	//	btnRevokeAccess.setOnClickListener(this);
 
 		mGoogleApiClient = new GoogleApiClient.Builder(this)
 				.addConnectionCallbacks(this)
@@ -151,7 +153,7 @@ public class MainActivity extends Activity implements OnClickListener,
 	@Override
 	public void onConnected(Bundle arg0) {
 		mSignInClicked = false;
-		Toast.makeText(this, "User is connected!", Toast.LENGTH_LONG).show();
+		//Toast.makeText(this, "User is connected!", Toast.LENGTH_LONG).show();
 
 		// Get user's information
 		getProfileInformation();
@@ -168,12 +170,12 @@ public class MainActivity extends Activity implements OnClickListener,
 		if (isSignedIn) {
 			btnSignIn.setVisibility(View.GONE);
 			btnSignOut.setVisibility(View.VISIBLE);
-			btnRevokeAccess.setVisibility(View.VISIBLE);
+		//	btnRevokeAccess.setVisibility(View.VISIBLE);
 			llProfileLayout.setVisibility(View.VISIBLE);
 		} else {
 			btnSignIn.setVisibility(View.VISIBLE);
 			btnSignOut.setVisibility(View.GONE);
-			btnRevokeAccess.setVisibility(View.GONE);
+		//	btnRevokeAccess.setVisibility(View.GONE);
 			llProfileLayout.setVisibility(View.GONE);
 		}
 	}
@@ -243,10 +245,10 @@ public class MainActivity extends Activity implements OnClickListener,
 			// Signout button clicked
 			signOutFromGplus();
 			break;
-		case R.id.btn_revoke_access:
+		//case R.id.btn_revoke_access:
 			// Revoke access button clicked
-			revokeGplusAccess();
-			break;
+		//	revokeGplusAccess();
+		//	break;
 		}
 	}
 

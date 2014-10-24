@@ -408,9 +408,8 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020020;
     }
     public static final class id {
-        public static final int action_settings=0x7f07001b;
+        public static final int action_settings=0x7f07001a;
         public static final int book_now=0x7f070010;
-        public static final int btn_revoke_access=0x7f07001a;
         public static final int btn_sign_in=0x7f070018;
         public static final int btn_sign_out=0x7f070019;
         public static final int buyButton=0x7f07000a;
